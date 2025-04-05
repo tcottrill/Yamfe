@@ -224,7 +224,6 @@ int BMFont::GetKerningPair(int first, int second)
 	//Only process if there actually is kerning information
 	if (KernCount && UseKern)
 	{
-		wrlog("Returning Kerning Pair amount for first: %d,second: %d, val: %d", first, second, (int)KernMap[key(first, second)]);
 		return (int)KernMap[key(first, second)];
 	}
 	return 0;
@@ -651,7 +650,7 @@ void BMFont::PrintKerningPairs()
 			//wrlog("FIRST: %d SECOND: %d offset %d", Kearn[j].First, Kearn[j].Second, Kearn[j].Amount);
 			wrlog("%d,%d,%d,", Kearn[j].First, Kearn[j].Second, Kearn[j].Amount);
 		}
-		*/
+	*/
 
 }
 
