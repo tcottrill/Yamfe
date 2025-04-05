@@ -1,0 +1,6 @@
+Usage:
+
+Add executable definitions and paths. 
+
+Create gamelist with those executables, the game name and the name to be shown as in the current list. 
+

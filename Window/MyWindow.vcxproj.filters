@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Glew">
+      <UniqueIdentifier>{9adfd9a8-ec9d-4f04-aaac-0979c2c5f9ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{d1b4e3a8-e4fe-4211-8515-ad45bf6552dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ziputil">
+      <UniqueIdentifier>{006f09d3-5ab9-4365-8b10-171b89a128fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Yamfe">
+      <UniqueIdentifier>{c6de98ae-c750-4ed8-8c61-d82b82920343}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glew.c">
+      <Filter>Source Files\Glew</Filter>
+    </ClCompile>
+    <ClCompile Include="rawinput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fpsclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_basics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="va2dnew.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MMTimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="simpletimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wavfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="miniz.c">
+      <Filter>Source Files\ziputil</Filter>
+    </ClCompile>
+    <ClCompile Include="bmfont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="spritesheet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Yamfe</Filter>
+    </ClCompile>
+    <ClCompile Include="wintimercode.cpp">
+      <Filter>Source Files\Yamfe</Filter>
+    </ClCompile>
+    <ClCompile Include="romscan.cpp">
+      <Filter>Source Files\Yamfe</Filter>
+    </ClCompile>
+    <ClCompile Include="ini.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rungame.cpp">
+      <Filter>Source Files\Yamfe</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>Source Files\Yamfe</Filter>
+    </ClCompile>
+    <ClCompile Include="screen_draw.cpp">
+      <Filter>Source Files\Yamfe</Filter>
+    </ClCompile>
+    <ClCompile Include="inptport.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="os_input.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="fileio.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Joystick.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="gameinput.cpp">
+      <Filter>Source Files\Yamfe</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>Source Files\Yamfe</Filter>
+    </ClCompile>
+    <ClCompile Include="audio.cpp">
+      <Filter>Source Files\Yamfe</Filter>
+    </ClCompile>
+    <ClCompile Include="sys_gl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sys_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sndlib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="font_helper.cpp">
+      <Filter>Source Files\Yamfe</Filter>
+    </ClCompile>
+    <ClCompile Include="simple_texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Source Files\Yamfe</Filter>
+    </ClCompile>
+    <ClCompile Include="sys_fileio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="path_helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glew.h">
+      <Filter>Source Files\Glew</Filter>
+    </ClInclude>
+    <ClInclude Include="rawinput.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fpsclass.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gl_basics.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sndlib.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtils.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="va2dnew.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mmtimer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="simpletimer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wavfile.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="colordefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="miniz.h">
+      <Filter>Source Files\ziputil</Filter>
+    </ClInclude>
+    <ClInclude Include="bmfont.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="spritesheet.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wintimercode.h">
+      <Filter>Source Files\Yamfe</Filter>
+    </ClInclude>
+    <ClInclude Include="romscan.h">
+      <Filter>Source Files\Yamfe</Filter>
+    </ClInclude>
+    <ClInclude Include="ini.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rungame.h">
+      <Filter>Source Files\Yamfe</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Source Files\Yamfe</Filter>
+    </ClInclude>
+    <ClInclude Include="screen_draw.h">
+      <Filter>Source Files\Yamfe</Filter>
+    </ClInclude>
+    <ClInclude Include="inptport.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="osdepend.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="joystick.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="gameinput.h">
+      <Filter>Source Files\Yamfe</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>Source Files\Yamfe</Filter>
+    </ClInclude>
+    <ClInclude Include="audio.h">
+      <Filter>Source Files\Yamfe</Filter>
+    </ClInclude>
+    <ClInclude Include="font_helper.h">
+      <Filter>Source Files\Yamfe</Filter>
+    </ClInclude>
+    <ClInclude Include="sys_gl.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tglfw.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="simple_texture.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image_write.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wglew.h">
+      <Filter>Source Files\Glew</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Source Files\Yamfe</Filter>
+    </ClInclude>
+    <ClInclude Include="sys_fileio.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vec2d.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utf8conv.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="path_helper.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="arcade.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="yamfe.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
